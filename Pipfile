@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+huggingface-hub==0.20.2
+replicate==0.22.0
+safetensors==0.4.1
+tokenizers==0.15.0
+transformers==4.36.2
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.5"
